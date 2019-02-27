@@ -1,0 +1,19 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "CurlEasyHttps",
+  "ComponentId" : "011b3254-6b4e-4af1-bc81-22e7f677f4bf",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "www.baidu.com", "www.makerzoon.com", "www.seeedstudio.com", "docs.microsoft.com" ],
+    "AllowedTcpServerPorts": [],
+    "AllowedUdpServerPorts": [],
+    "Gpio": [5, 6, 8],
+    "Uart": [ "ISU0", "ISU3", "ISU2", "ISU1" ],
+    "I2cMaster": [],
+    "SpiMaster": [],
+    "WifiConfig": false,
+    "NetworkConfig": false,
+    "SystemTime": false
+  }
+}
